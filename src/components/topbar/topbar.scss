@@ -1,0 +1,10 @@
+@import "./src/global";
+
+.topbar{
+  width: 100%;
+  height: 70px;
+  background-color: $main-color;
+  position: fixed;
+  top: 0;
+  z-index: 2;
+}
