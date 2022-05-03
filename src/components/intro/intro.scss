@@ -1,3 +1,5 @@
+@import "src/global";
+
 .intro{
   background-color: white;
   display: flex;
@@ -6,14 +8,18 @@
     flex: 0.5;
     overflow: hidden;
 
+
     .imgContainer{
-      width: 700px;
-      height: 700px;
-      background-color: teal;
+      width: 830px;
+      height: 830px;
+      background-color: crimson;
       border-radius: 50%;
+      position: relative;
+      top: 10px;
+      left: -100px;
 
       img{
-        height: 90%;
+        width: 100%;
       }
     }
   }
@@ -37,6 +43,11 @@
       }
       h3{
         font-size: 30px;
+
+        span{
+          float: inherit;
+          color: crimson;
+        }
       }
     }
     a{

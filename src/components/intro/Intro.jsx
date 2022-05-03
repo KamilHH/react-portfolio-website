@@ -7,14 +7,14 @@ const Intro = () => {
         <div className="intro" id="home">
             <div className="left">
                 <div className="imgContainer">
-                    <img src="" alt=""/>
+
                 </div>
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
+                    <h2>Hi there, I'm</h2>
                     <h1>Kamil Woźniak</h1>
-                    <h3>Frontend Developer</h3>
+                    <h3>Frontend <span>Developer</span></h3>
                 </div>
                 <a href="#portfolio">
                     <KeyboardArrowDown/>
