@@ -4,10 +4,10 @@ import {Mail, PhoneAndroid} from "@material-ui/icons";
 
 const Topbar = ({menuOpen, setMenuOpen}) => {
     return (
-        <div className={"topbar " + (menuOpen && "active") }>
+        <div className={ "topbar " + (menuOpen && "active") }>
             <div className="wrapper">
                 <div className="left">
-                    <a href="" className="logo">portfolio.</a>
+                    <a href="#home" className="logo">portfolio.</a>
                     <div className="itemContainer">
                         <PhoneAndroid className="icon"/>
                         <span>+48 123 456 789</span>

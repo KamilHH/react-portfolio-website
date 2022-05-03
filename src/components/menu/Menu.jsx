@@ -9,7 +9,7 @@ const Menu = ({menuOpen, setMenuOpen}) => {
                     menuData.map((el,i)=>{
                         const {path, title} = el;
                         return (
-                            <li>
+                            <li onClick={()=>{setMenuOpen(false)}} key={i}>
                                 <a href={`/${path}`}>{title}</a>
                             </li>
                         )

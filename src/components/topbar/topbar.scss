@@ -40,7 +40,7 @@
 
         span{
           font-size: 15px;
-          font-weight: 600;
+          font-weight: 500;
         }
       }
     }
@@ -67,7 +67,9 @@
   &.active{
     background-color: $main-color;
     color: white;
-
+    .logo{
+      transition: all 100ms ease;
+    }
     .hamburger{
       span{
         &:first-child{
