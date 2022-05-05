@@ -1,6 +1,8 @@
 import React from 'react';
 import './works.scss'
-import {PhoneAndroid} from "@material-ui/icons";
+import { PhoneAndroid} from "@material-ui/icons";
+import {ReactComponent as Left} from "../../assets/arrow_back.svg";
+import {ReactComponent as Right} from "../../assets/arrow_forward.svg";
 
 const Works = () => {
     return (
@@ -22,11 +24,17 @@ const Works = () => {
                             </div>
                         </div>
                         <div className="right">
-                            <img src="https://cdn.dribbble.com/users/3967258/screenshots/15463803/media/4fddb9a2caf3b3bd634060f706a91e73.png?compress=1&resize=1200x900" alt=""/>
+                            <img src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930" alt=""/>
                         </div>
                     </div>
                 </div>
             </div>
+            <Right className="arrow right"/>
+            <Left className="arrow left"/>
+
+
+
+
         </div>
     );
 };
