@@ -15,7 +15,7 @@
       background-color: crimson;
       border-radius: 50%;
       position: relative;
-      top: 10px;
+      top: 0px;
       left: -100px;
 
       img{
@@ -43,8 +43,9 @@
       }
       h3{
         font-size: 30px;
-
+        display: flex;
         span{
+          margin-left: 5px;
           float: inherit;
           color: crimson;
         }
