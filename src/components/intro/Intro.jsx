@@ -2,14 +2,14 @@ import React from 'react';
 import './intro.scss'
 import {KeyboardArrowDown} from "@material-ui/icons";
 import Typewriter from 'typewriter-effect';
-
+import Picture from '../../assets/man.png'
 const Intro = () => {
 
     return (
         <div className="intro" id="home">
             <div className="left">
                 <div className="imgContainer">
-
+                    <img src={Picture} alt="Profile pciture"/>
                 </div>
             </div>
             <div className="right">
