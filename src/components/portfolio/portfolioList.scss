@@ -1,11 +1,15 @@
 @import "src/global";
 
-.portfolioList{
+.portfolioList {
   font-size: 14px;
   margin-right: 50px;
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
+
+  @include mobile {
+    margin: 0 10px;
+  }
 
   &.active {
     background-color: $main-color;
